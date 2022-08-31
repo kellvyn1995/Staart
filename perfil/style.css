@@ -1,0 +1,156 @@
+/* @import url('https://fonts.googleapis.com/css2? family= Silkscreen & display=swap'); */
+
+html{
+    background-color: #0f172a;
+    color: #ffffffff;
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem; /*cada rem vale 10px*/
+}
+footer,
+section{
+    padding: 5rem;
+    max-width: 96rem;
+    margin: 0 auto;
+}
+footer{
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    gap: 2rem;
+    justify-content: center; 
+}
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.sobre{
+    background-color: #162340;
+    font-family: 'Silkscreen', cursive;
+}
+.itens-center{
+    display: flex;
+    align-items: center;
+    
+}
+.inspecionar{
+    border: 5px solid red;
+}
+
+.nav{
+    padding: 2rem 6rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    font-size: 1.8rem;
+}
+
+.nav-links a {
+    color: #ffffffff;
+    text-decoration: none;
+}
+
+.avatar{
+ border-radius: 100%;
+ width: 24rem;
+ height: 24rem;
+
+ margin-right: 10rem;
+}
+
+.main{
+    margin-bottom: 5rem;
+}
+
+
+
+.main-title {
+    font-size: 3rem;
+}
+
+.main-description{
+    margin: 4rem;
+}
+
+.btn{
+    border-radius: 0.2rem;
+    background-color: #0039cc;
+    padding: 1rem 2rem;
+    color: #ffffffff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.project{
+    margin: 4rem 0;
+    
+}
+.img_projeto{
+    width: 24rem;
+    height: 20rem;
+    margin-right: 2.5rem;
+    border-radius: 0.8rem;
+}
+
+.titulo-projeto{
+    font-size: 3rem;
+}
+
+svg{
+    color: #ffffffff;
+}
+/*animação*/
+.animacao::after{
+    content: '|';
+    margin-left: 0.5rem;
+    opacity: 1;
+    animation: pisca .7s infinite;
+    
+}
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/*responsividade*/
+@media(max-width: 1200px){
+    .itens-center{
+        flex-direction: column;
+    }
+    footer,
+    .selection{
+        padding: 5rem;
+    }
+
+    .main{
+        margin-bottom: 2rem;
+    }
+    .main-title{
+        font-size: 3rem;
+    }
+    .img_projeto{
+        width: 38rem;
+        height: auto;
+    }
+
+    .nav-links{
+        justify-content: center;
+    }
+
+    .avatar{
+        width: 18rem;
+        height: 18rem;
+        margin-right: 0;
+    }
+    
+}
