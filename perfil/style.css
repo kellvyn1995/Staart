@@ -71,11 +71,12 @@ h2{
 
 
 .main-title {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .main-description{
     margin: 4rem;
+    margin-left: 0rem;
 }
 
 .btn{
@@ -106,12 +107,14 @@ svg{
     color: #ffffffff;
 }
 /*animação*/
+.animacao{
+    text-align: justify;
+}
 .animacao::after{
     content: '|';
     margin-left: 0.5rem;
     opacity: 1;
     animation: pisca .7s infinite;
-    
 }
 @keyframes pisca {
     0%, 100% {
