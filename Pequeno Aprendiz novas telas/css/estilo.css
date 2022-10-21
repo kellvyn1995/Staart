@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'dust';
+    src: url(../font/font1/Sketch3D.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:ital,wght@0,600;1,500&display=swap');
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+body{
+    background-color: rgb(255, 222, 89);
+}
+.estrutura .titulo h1{
+    font-family: 'dust';
+    color: black;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.estrutura .corpo h2{
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+.estrutura{
+    background-color: #ffffff;
+    height: 35rem;
+    width: auto;
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    
+}
+
+.titulo{
+    background-color: rgb(226, 127, 98);
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* .rodape{
+    background-color: rgb(226, 127, 98);
+	margin-top: 25rem; 
+    height: 5rem;
+    padding: 0.2rem;
+
+    max-width: inherit;
+    color: #FFF;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+} */
+.btn_azul{
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+
+    margin-top: 1rem;
+    display: inline;
+    margin-left: 1rem;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: rgb(178, 235, 222);
+    color: black;
+    font-size: 1.2rem; 
+    border: 0;
+    text-shadow: 2px 2px 2px #24b5c5;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 1px #24b5c5;
+    float: left;
+
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+.btn_azul:active{
+    box-shadow: 0 0 0 0 #24b5c5, inset 3px 3px 3px #24b5c5;
+    transform: translate(3px, 3px);
+}
+
+.btn_verde{
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+
+    margin-top: 1rem;
+    /* display: inline-block; */
+    margin-right: 1rem;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: rgb(103, 174, 144);
+    color: black;
+    font-size: 1.2rem; 
+    border: 0;
+    text-shadow: 2px 2px 2px #27824e;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 1px #27824e;
+    float: right;
+
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+.btn_verde:active{
+    box-shadow: 0 0 0 0 #27824e, inset 3px 3px 3px #27824e;
+    transform: translate(3px, 3px);
+}
+
+.btn_laranja{
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: rgb(226, 127, 98);
+    color: black;
+    font-size: 1.2rem; 
+    border: 0;
+    text-shadow: 2px 2px 2px #d54012;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 1px #d54012;
+    /* float: right; */
+    margin-left: 1rem;
+
+    transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+.btn_laranja:active{
+    box-shadow: 0 0 0 0 #d54012, inset 3px 3px 3px #d54012;
+    transform: translate(3px, 3px);
+}
+
+/*label*/
+.label_padrao {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: black;
+}
+/*estilo do inpunt*/
+.input_padrao{
+    font-family: 'Inter', sans-serif;
+    border: 2px solid rgb(226, 127, 98);
+    border-radius: 5px;
+    outline: 0;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+
+.select_padrao{
+    font-family: 'Inter', sans-serif;
+    border: 2px solid rgb(226, 127, 98);
+    border-radius: 5px;
+    outline: 0;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+    width: 26.1em;
+    font-size: 1rem;
+    padding: 0.8rem;
+    max-width: inherit;
+
+
+
+}
+.check{
+    display: inline-block;
+    margin-left: 1rem;
+
+}
+.corpo{
+    width: auto;
+    height: 75%;
+}
+.final{
+    /* position: fixed; */
+    display: block;
+    background-color: rgb(226, 127, 98);
+    border-radius: 0px 0px 10px 10px;
+    height: 5rem;    
+}
+
+table{
+    border-collapse: collapse;
+    margin: 1rem;
+    
+}
+thead{
+    background-color: rgb(255, 222, 89);
+}
+th, td {
+    border: 1px solid rgb(226, 127, 98);
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+tr:nth-child(2n){
+    background-color: rgb(226, 127, 98);
+}
+
+.tabela_diario{
+    height: 20rem;
+    width: auto;
+    overflow: scroll;
+}
+/* tablet */
+@media (max-width: 1200px) {
+    .tabela_diario{
+        height: 16rem;
+        width: auto;
+        overflow: scroll;
+    }
+}
+/* celular */
+@media(max-width: 768px){
+    .estrutura{
+        background-color: #ffffff;
+        height: auto;
+        width: auto;
+        border-radius: 1rem;
+        margin: 1rem;
+    }
+
+    .btn_laranja{
+        margin-top: 1rem;
+        font-family: 'Inter', sans-serif;
+        cursor: pointer;
+        text-align: center;
+        display: inline-flex;
+        background: rgb(226, 127, 98);
+        color: black;
+        font-size: 1.2rem; 
+        border: 0;
+        text-shadow: 2px 2px 2px #d54012;
+        border-radius: 0.5em;
+        box-shadow: 3px 3px 0 1px #d54012;
+        /* float: right; */
+        margin-left: 1rem;
+    
+        transition: box-shadow 0.1s ease, transform 0.1s ease;
+    }
+        /*label*/
+    .label_padrao {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.2rem;
+        display: inline-block;
+        margin-bottom: 5px;
+        color: black;
+    }
+    /*estilo do inpunt*/
+    .input_padrao{
+        font-family: 'Inter', sans-serif;
+        border: 2px solid rgb(226, 127, 98);
+        border-radius: 5px;
+        outline: 0;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        display: flex;
+        width: 90%;
+        font-size: 1rem;
+        padding: 0.8rem;
+
+    }
+    .check{
+        display: inline-block;
+        margin-left: 1rem;
+        display: inline-flex;
+        margin-left: 6rem;
+        font-family: 'Inter', sans-serif;
+        margin-top: 1rem;
+    }
+    
+
+}
