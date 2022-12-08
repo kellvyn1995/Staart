@@ -1,0 +1,159 @@
+.alinhamento-bv{
+    width: 100%;
+    height: 100%;
+}
+.container-b{
+    margin: 30px;
+    border-radius: 40px;
+    text-align: center;
+    display: block;
+    margin: 60px auto;
+    background-color: white;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+    
+    width: 90%; 
+    -webkit-animation-name: container;
+    animation-name: container;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes container{
+    0%{
+        transition: scale(0);
+    } 
+}
+@keyframes container{
+    0%{
+        transition: scale(0);
+    } 
+}
+.formulario-Header {
+    border-radius: 40px;
+    background-color: rgb(180, 43, 43);
+    height: 100px;
+    width: 100%;
+    -webkit-animation-name: formulario-Header;
+            animation-name: formulario-Header;
+    -webkit-animation-duration: 0.4s;
+            animation-duration: 0.4s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes formulario-Header {
+    0% {
+      transform: scaleY(0);
+    }
+  }
+  
+  @keyframes formulario-Header {
+    0% {
+      transform: scaleY(0);
+    }
+  }
+  .formulario-Header-h3{
+      padding: 30px;
+      text-align: center;
+  }
+  .inpu-animacao {
+    margin-left: 1rem;
+    border: hidden;
+    transition: 0.4s;
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.8rem;
+    width: 90%;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    -webkit-animation-name: inpu-animacao;
+            animation-name: inpu-animacao;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes inpu-animacao {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes inpu-animacao {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+
+
+  }
+
+  .btn-cd {
+    float: right;
+    border-radius: 40px;
+    margin: 10px 10px;
+}
+.formulario-Header-h2{
+  padding: 10px;
+  text-align: end;
+}
+.formulario-Header-h2-animacao{
+  
+-webkit-animation-name: formulario-Header-h2-animacao;
+      animation-name: formulario-Header-h2-animacao;
+-webkit-animation-duration: 1s;
+      animation-duration: 1s;
+-webkit-animation-delay: 0.8s;
+      animation-delay: 0.8s;
+-webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+}
+@-webkit-keyframes formulario-Header-h2-animacao {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes formulario-Header-h2-animacao {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+
+
+}
+
+/* diarios */
+.diarioBTN{
+  font-size: 1.5rem;
+}
+
